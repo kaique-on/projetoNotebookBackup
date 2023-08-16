@@ -1,0 +1,27 @@
+main {
+  margin-top: 56px;
+  margin-bottom: 136px;
+}
+
+.espaco_principal {
+  width: 70%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(33%, 1fr)); /* Cria colunas flexíveis */
+  justify-content: space-between; /* Espaçamento entre as divs */
+  grid-row-gap: 72px;
+}
+
+.criar_nota {
+background-color: #DA6422;
+border-radius: 100px;
+width: 80px;
+height: 80px;
+color: white;
+align-items: center;
+display: flex;
+justify-content: center;
+position: fixed;
+bottom: 50px; /* Ajuste a posição vertical conforme necessário */
+right: 150px
+}
